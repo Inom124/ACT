@@ -15,7 +15,8 @@ program Project1Tests;
 {$ENDIF}
 
 uses
-  DUnitTestRunner;
+  DUnitTestRunner,
+  TestTestsUnit in 'TestTestsUnit.pas';
 
 {$R *.RES}
 
