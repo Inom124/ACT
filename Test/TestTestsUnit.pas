@@ -3,13 +3,15 @@ unit TestTestsUnit;
 interface
 
 uses
+  TestsUnit,
+  TestsInterfaceUnit,
   TestFramework, System.SysUtils, Vcl.Graphics, Winapi.Windows, System.Variants,
   System.Classes, Vcl.Dialogs, Vcl.Controls, Vcl.Forms, Winapi.Messages;
 
 type
   TestTests = class(TTestCase)
   strict private
-     FTests1: Tests;
+     FTests1: Tests1;
   public
     procedure SetUp; override;
     procedure TearDown; override;
@@ -21,7 +23,7 @@ implementation
 
 procedure TestTests.SetUp;
 begin
-   FTests1:= Tests.Create;
+   FTests1:= Tests1.create;
 end;
 
 procedure TestTests.TearDown;
@@ -32,7 +34,7 @@ end;
 
 procedure TestTests.TestSetList;
 begin
-  FTests1.SetList;
+  FTests1.SetList('jhb');
   CheckNotNull(FTests1.getList);
 end;
 

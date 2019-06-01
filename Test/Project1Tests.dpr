@@ -16,7 +16,12 @@ program Project1Tests;
 
 uses
   DUnitTestRunner,
-  TestTestsUnit in 'TestTestsUnit.pas';
+  TestTestsUnit in 'TestTestsUnit.pas',
+  TestEnterstringUnit in '..\TestEnterstringUnit.pas',
+  TestInterfaceUnit in '..\TestInterfaceUnit.pas',
+  TestsInterfaceUnit in '..\TestsInterfaceUnit.pas',
+  TestsUnit in '..\TestsUnit.pas',
+  TestWithOptionUnit in '..\TestWithOptionUnit.pas';
 
 {$R *.RES}
 

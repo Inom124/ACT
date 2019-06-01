@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="a0hebxg0db6izwa4j_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+  </view>
+  <link uin="thtrsuwxr2enai87p_l">
+    <property name="$metaclass" value="Dependency Link" />
+    <property name="$name" value="Dependency Link1" />
+    <participant referencedUin="delphi:e_class:src:Project1:TestsUnit.Tests1" role="Client" />
+    <participant referencedUin="delphi:e_class:src:Project1:TestInterfaceUnit.TestInterface" role="Supplier" />
+  </link>
+</nodeSet>
