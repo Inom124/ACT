@@ -3,14 +3,12 @@ unit TestsInterfaceUnit;
 interface
 
 uses
-
-  TestInterfaceUnit,
-  System.Generics.Collections;
+  System.Generics.Collections,
+  TestInterfaceUnit;
 
 type
   TestsInterface = Interface
-    procedure setList(FileName: string);
-    function getlist: Tlist<TestInterface>;
+    function getlist: TList<TestInterface>;
   End;
 
 implementation

@@ -3,10 +3,10 @@ unit TestEnterstringUnit;
 interface
 
 uses
-  testInterfaceunit, System.Generics.Collections;
+  ControllerUnit, testInterfaceunit, System.Generics.Collections;
 
 type
-  TestEnterstring = class(TInterfacedObject, testInterface)
+  TestEnterstring = class(TInterfacedObject, TestInterface)
   private
   Question: string;
     AnswerTrue: Tlist<string>;

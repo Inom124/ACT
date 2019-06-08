@@ -9,23 +9,26 @@ uses
 
 type
   Tests1 = class(TInterfacedObject, TestsInterface)
+  private
+    TestList: Tlist<TestInterface>;
   public
-    procedure setList(FileName: string);
+
     function getlist: Tlist<TestInterface>;
+    constructor Create(TestList: Tlist<TestInterface>);
   end;
 
 implementation
 
 { Tests }
 
-function Tests1.getlist: Tlist<TestInterface>;
+constructor Tests1.Create(TestList: Tlist<TestInterface>);
 begin
-
+  self.TestList := TestList;
 end;
 
-procedure Tests1.setList(FileName: string);
+function Tests1.getlist: Tlist<TestInterface>;
 begin
-
+  Result := TestList;
 end;
 
 end.

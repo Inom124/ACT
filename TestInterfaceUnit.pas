@@ -3,9 +3,10 @@ unit TestInterfaceUnit;
 interface
 
 type
+
   TestInterface = Interface
 
-  End;
+  end;
 
 implementation
 

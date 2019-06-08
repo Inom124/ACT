@@ -7,7 +7,11 @@ uses
   TestsUnit in 'TestsUnit.pas',
   TestInterfaceUnit in 'TestInterfaceUnit.pas',
   TestWithOptionUnit in 'TestWithOptionUnit.pas',
-  TestEnterstringUnit in 'TestEnterstringUnit.pas';
+  TestEnterstringUnit in 'TestEnterstringUnit.pas',
+  ControllerInterfaceUnit in 'ControllerInterfaceUnit.pas',
+  ControllerUnit in 'ControllerUnit.pas',
+  WindowsInterfaceUnit in 'WindowsInterfaceUnit.pas',
+  WindowsUnit in 'WindowsUnit.pas';
 
 {$R *.res}
 

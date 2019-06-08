@@ -4,8 +4,17 @@
     <property name="$defaultDiagram" value="true" />
     <property name="$metaclass" value="Package Diagram" />
     <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:TestsUnit.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:TestsUnit.Tests1">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Project1:TestsUnit.Tests1.TestList" />
+      <reference referencedUin="delphi:e_method:src:Project1:TestsUnit.Tests1.getlist()" />
+      <reference referencedUin="delphi:e_method:src:Project1:TestsUnit.Tests1.Create(System.Generics.Collections.TList&lt;TestInterfaceUnit.TestInterface&gt;)" />
+    </reference>
   </view>
-  <link uin="thtrsuwxr2enai87p_l">
+  <link uin="9p8w485oi4ohl7t2n_l">
     <property name="$metaclass" value="Dependency Link" />
     <property name="$name" value="Dependency Link1" />
     <participant referencedUin="delphi:e_class:src:Project1:TestsUnit.Tests1" role="Client" />

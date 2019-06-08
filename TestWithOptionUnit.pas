@@ -3,11 +3,11 @@ unit TestWithOptionUnit;
 interface
 
 uses
-  testInterfaceunit,
+  ControllerUnit, testInterfaceunit,
   System.Generics.Collections;
 
 type
-  TestWithOption = class(TInterfacedObject, testInterface)
+  TestWithOption = class(TInterfacedObject, TestInterface)
   private
     Question: string;
     AnswerTrue: Tlist<string>;
